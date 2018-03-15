@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\Character\btKinematicCharacterController.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btContactConstraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btFixedConstraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btGearConstraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btHinge2Constraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btSliderConstraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btTypedConstraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btUniversalConstraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\Dynamics\btDiscreteDynamicsWorldMt.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\Dynamics\btSimulationIslandManagerMt.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\Dynamics\btRigidBody.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\Dynamics\btSimpleDynamicsWorld.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\Vehicle\btRaycastVehicle.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\Vehicle\btWheelInfo.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBody.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodyConstraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodyPoint2Point.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodyFixedConstraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodySliderConstraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodyJointMotor.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodyGearConstraint.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\MLCPSolvers\btDantzigLCP.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\MLCPSolvers\btMLCPSolver.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(ProjectDir)..\..\..\src\btBulletDynamicsCommon.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\btBulletCollisionCommon.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btConstraintSolver.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btContactConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btContactSolverInfo.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btFixedConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btGearConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btHinge2Constraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btHingeConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btJacobianEntry.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btSliderConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btSolverBody.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btSolverConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btTypedConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\ConstraintSolver\btUniversalConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Dynamics\btActionInterface.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Dynamics\btDiscreteDynamicsWorldMt.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Dynamics\btSimulationIslandManagerMt.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Dynamics\btDynamicsWorld.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Dynamics\btSimpleDynamicsWorld.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Dynamics\btRigidBody.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Vehicle\btRaycastVehicle.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Vehicle\btVehicleRaycaster.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Vehicle\btWheelInfo.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Character\btCharacterControllerInterface.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Character\btKinematicCharacterController.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBody.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodyLink.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodyLinkCollider.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodySolverConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodyConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodyPoint2Point.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodyFixedConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodySliderConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodyJointMotor.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\Featherstone\btMultiBodyGearConstraint.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\MLCPSolvers\btDantzigLCP.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\MLCPSolvers\btDantzigSolver.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\MLCPSolvers\btMLCPSolver.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\MLCPSolvers\btMLCPSolverInterface.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\MLCPSolvers\btPATHSolver.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\MLCPSolvers\btSolveProjectedGaussSeidel.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\MLCPSolvers\btLemkeSolver.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(ProjectDir)..\..\..\src\BulletDynamics\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE01FBBB-B1F2-3500-936D-B4225E0F5753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ED4EE091-87BD-3F8D-932E-BBBF23822AB6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

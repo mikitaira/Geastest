@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\GeasSimulator-0.0.1\GeasEngine-0.0.1\bullet3-2.87\build\CMakeFiles\53dd679521df83c008f360aee5420e11\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EA2E0529-E7C4-3F40-93BF-0F16E6A7A145}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

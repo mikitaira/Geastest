@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(ProjectDir)..\..\..\src\LinearMath\btAlignedAllocator.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\LinearMath\btConvexHull.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\LinearMath\btConvexHullComputer.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\LinearMath\btGeometryUtil.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\LinearMath\btPolarDecomposition.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\LinearMath\btQuickprof.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\LinearMath\btSerializer.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\LinearMath\btSerializer64.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\LinearMath\btThreads.cpp" />
+    <ClCompile Include="$(ProjectDir)..\..\..\src\LinearMath\btVector3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btAabbUtil2.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btAlignedAllocator.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btAlignedObjectArray.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btConvexHull.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btConvexHullComputer.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btDefaultMotionState.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btGeometryUtil.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btGrahamScan2dConvexHull.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btHashMap.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btIDebugDraw.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btList.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btMatrix3x3.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btMinMax.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btMotionState.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btPolarDecomposition.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btPoolAllocator.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btQuadWord.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btQuaternion.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btQuickprof.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btRandom.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btScalar.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btSerializer.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btStackAlloc.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btThreads.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btTransform.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btTransformUtil.h" />
+    <ClInclude Include="$(ProjectDir)..\..\..\src\LinearMath\btVector3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(ProjectDir)..\..\..\src\LinearMath\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE01FBBB-B1F2-3500-936D-B4225E0F5753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ED4EE091-87BD-3F8D-932E-BBBF23822AB6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
